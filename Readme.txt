@@ -1,6 +1,12 @@
 ﻿https://spark.rstudio.com/index.html
 安装，使用概述
 
+在Rstudio操作：
+install.packages("sparklyr")
+library(sparklyr)
+spark_uninstall(version = "2.2.0",hadoop_version="2.6")
+
+
 https://spark.rstudio.com/dplyr.html#sql_translation
 sparksql转换
 

@@ -4,6 +4,7 @@
 在Rstudio操作：
 install.packages("sparklyr")
 library(sparklyr)
+spark_install(version = "2.2.0",hadoop_version="2.6")
 spark_uninstall(version = "2.2.0",hadoop_version="2.6")
 
 
